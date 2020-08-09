@@ -1,0 +1,105 @@
+ 	/************  Base Styles ***********/
+	* {
+		box-sizing: border-box;
+	}	
+	h1 {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.Chicken {
+		border: 1px solid black;
+		background-color: yellow;
+		width: 90%;
+		height: 150%;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: Arial;
+		color: black;
+		padding-left: 10px;	
+		text-decoration: blink;
+		
+	}
+
+	.beef {
+		border: 1px solid black;
+		background-color: skyblue;
+		width: 90%;
+		height: 150%;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: Arial;
+		color: yellow;
+		padding-left: 10px;	
+		
+	}
+
+	.sushi {
+		border: 1px solid black;
+		background-color: red;
+		width: 90%;
+		height: 150%;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: Arial;
+		color: black;
+		padding-left: 10px;	
+		
+	}
+
+	div  {
+		padding-left: 10px;
+		padding-right: 10px;
+
+	}
+	
+
+	/************  Simple Responsive Framework. ********/
+
+	.row {
+
+		width: 100%;
+
+	}
+	
+
+	/************* Large device only ************/
+	@media (min-width: 992px) {
+		.col-lg-1, .col-lg-2, .col-lg-3  {
+			float: left;
+			border: 1px solid black;
+		}
+		.col-lg-1, .col-lg-2, .col-lg-3 {
+			width: 33.3333333333%;
+		}
+		
+		
+	}
+
+	/************** Medium device only ***********/
+	@media (min-width: 768px) and (max-width:  991px) {
+		.col-lg-1, .col-lg-2 {
+			float: left;
+			border: 1px solid black;
+			width: 50%;
+		}
+		.col-lg-3{
+			float: left;
+			border:1px solid black;
+			width:100%;
+		}
+		
+		
+	}
+
+	@media  (max-width:  767px) {
+		.col-lg-1, .col-lg-2, .col-lg-3  {
+			float: left;
+			border: 1px solid black;
+		}
+		.col-lg-1, .col-lg-2, .col-lg-3 {
+			width: 100%;
+		}
+		
+		
+	}
